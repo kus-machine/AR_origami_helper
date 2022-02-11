@@ -338,6 +338,7 @@ is_camera = False
 if is_camera is True:
     cap = cv2.VideoCapture(0)
 elif is_camera is False:
+    # download video from https://drive.google.com/file/d/1JBVBlbgOb9Wyc-4GhTP0tL8OLTZ0vW2p/view?usp=sharing
     cap = cv2.VideoCapture("123.mp4")
 
 
